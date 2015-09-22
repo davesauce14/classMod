@@ -92,8 +92,8 @@ entityDef weapon_machinegun
 	"inv_icon"					"gfx/guis/hud/icons/item_machinegun.tga"
 	"inv_name"					"#str_107406"
 
-	"fireRate"					".1"
-	"spread"					"2"
+	"fireRate"					".001"
+	"spread"					"2000"
 
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_machinegun"
 	"def_hitscan"				"hitscan_bullet"
@@ -101,8 +101,8 @@ entityDef weapon_machinegun
 	
 	"ammoType"					"ammo_machinegun"
 	"ammoRequired"				"1"
-	"clipSize"					"40"
-	"lowAmmo"					"10"
+	"clipSize"					"200"
+	"lowAmmo"					"1000"
 	"gui"						"guis/weapons/machinegun_ammo.gui"
 	"gui2"						"guis/weapons/machinegun_inview_scope.gui"
 

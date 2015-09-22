@@ -79,8 +79,8 @@ entityDef weapon_shotgun
 	"joint_view_guiLight"			"body"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"				".8"
-	"spread"				"7"
+	"fireRate"				".1"
+	"spread"				"1"
 	"hitscans"				"10"
 
 	"inv_weapon"				"weapon_shotgun"
@@ -108,7 +108,7 @@ entityDef weapon_shotgun
 
 	"ejectOffset"				"6 -4 -3"
 
-	"recoilTime"				"600"
+	"recoilTime"				"1"
 	"recoilAngles"				"-.25 0 0"
 	
  	"def_mod1"				"wpmod_shotgun_ammo"
@@ -116,10 +116,10 @@ entityDef weapon_shotgun
 	"foreshorten"				".44"
 
 	"mtr_flashShader"			"lights/muzzleflash"
-	"flashColor"				"1 0.8 0.4"
+	"flashColor"				"1 0 0"
 	"flashRadius"				"240"
-	"flashPointLight"			"1"
-	"flashTime"				".1"
+	"flashPointLight"			"10"
+	"flashTime"				"1"
 	"flashViewOffset"			"15 -5 -5"
 
 	"fx_eject"				"effects/weapons/shotgun/eject.fx"
